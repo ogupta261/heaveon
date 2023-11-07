@@ -10,7 +10,7 @@ export default function Footer(props) {
                     <span className="fs-2 fw-semibold text-center mb-4">Bold and Futuristic</span>
                     <div className="d-flex flex-row flex-wrap justify-content-center my-3">
                         <div className="text-center">
-                            <input type="email" className="form-control rounded-pill contact-email w-100" id="floatingInput" placeholder="Enter Your Email" />
+                            <input type="email" className="form-control rounded-pill w-100" id="floatingInput" placeholder="Enter Your Email" />
                         </div>
                         <button className="btn bg-transparent fw-bold border-0" style={{ color: props.secondary }}>Notify Me</button>
                     </div>
