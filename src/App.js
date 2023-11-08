@@ -1,5 +1,5 @@
 import './App.css';
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import Navbar from './Components/Navbar';
 import Card from './Components/Card';
 import Footer from './Components/Footer';
@@ -20,12 +20,12 @@ function App() {
             <h1 className='my-3'>Our Features</h1>
             <span className='w-50'>Discover the unique features that set us apart</span>
             <div className="d-flex flex-column my-4">
-              <Card align='start' primary={primary} secondary={secondary} title='Cloud-based Solutions' caption='Leverage the power of the cloud to streamline your operations and increase efficiency.' url='#' />
-              <Card align='end' primary={primary} secondary={secondary} title='Cutting-edge Technology' caption='Stay ahead of the curve with our advanced technological solutions tailored to your business.' url='#' />
-              <Card align='start' primary={primary} secondary={secondary} title='Personalized Approach' caption='We understand that every business is unique, and we provide customized solutions to meet your specific requirements.' url='#' />
-              <Card align='end' primary={primary} secondary={secondary} title='24/7 Support' caption='Our dedicated support team is available round the clock to assist you with any queries or issues.' url='#' />
-              <Card align='start' primary={primary} secondary={secondary} title='Data Security' caption='Rest assured that your data is safe and secure with our robust security measures.' url='#' />
-              <Card align='end' primary={primary} secondary={secondary} title='Seamless Integration' caption='Integrate our solutions seamlessly with your existing systems for a smooth transition.' url='#' />
+              <Card align='start' primary={primary} secondary={secondary} title='Cloud-based Solutions' caption='Leverage the power of the cloud to streamline your operations and increase efficiency.'/>
+              <Card align='end' primary={primary} secondary={secondary} title='Cutting-edge Technology' caption='Stay ahead of the curve with our advanced technological solutions tailored to your business.'/>
+              <Card align='start' primary={primary} secondary={secondary} title='Personalized Approach' caption='We understand that every business is unique, and we provide customized solutions to meet your specific requirements.'/>
+              <Card align='end' primary={primary} secondary={secondary} title='24/7 Support' caption='Our dedicated support team is available round the clock to assist you with any queries or issues.'/>
+              <Card align='start' primary={primary} secondary={secondary} title='Data Security' caption='Rest assured that your data is safe and secure with our robust security measures.'/>
+              <Card align='end' primary={primary} secondary={secondary} title='Seamless Integration' caption='Integrate our solutions seamlessly with your existing systems for a smooth transition.'/>
             </div>
             <div class="row my-5" style={{ color: primary }}>
               <div class="col-4">
