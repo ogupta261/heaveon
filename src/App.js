@@ -1,19 +1,23 @@
 import './App.css';
-import { useState } from "react";
+// import { useState } from "react";
 import Navbar from './Components/Navbar';
 import Card from './Components/Card';
 import Footer from './Components/Footer';
 
 function App() {
-  const [primary, setPrimary] = useState('white');
-  const [secondary, setSecondary] = useState('black');
+  // const [primary, setPrimary] = useState('white');
+  // const [secondary, setSecondary] = useState('black');
+  const primary = 'white';
+  const secondary = 'black';
   
   return (
     <>
       <div style={{ background: 'linear-gradient(LightSkyBlue, black)'}}>
         <Navbar />
         <div className="text-center row align-content-center justify-content-center">
-          <p className="heading border-bottom" >Heaveon</p>
+          <div className="heading border-bottom " >
+            <span className=''>Heaveon</span>
+          </div>
           <h1 className='my-3'>Welcome to the Future!</h1>
           <span className='text-wrap w-50'>Prepare for a mind-blowing experience with InnovElite's cutting-edge IT solutions. We're the trailblazers of tech, fusing science fiction with reality.</span>
           <div className="container features">
